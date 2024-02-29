@@ -2,7 +2,20 @@
 
 ## Develop
 
-### Useful commands:
+install and configure [pre-commit](https://pre-commit.com/)
+optional tools:
+
+* [asdf](https://github.com/asdf-vm/asdf)
+* [direnv](https://github.com/direnv/direnv)
+
+Direnv config .envrc file:
+
+```text
+use asdf
+export TESTCONTAINERS_RYUK_DISABLED="true"
+```
+
+### Useful commands
 
 Run dev mode
 
